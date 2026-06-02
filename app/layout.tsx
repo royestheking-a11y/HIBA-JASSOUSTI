@@ -61,7 +61,8 @@ export default function RootLayout({
             gtag('config', 'G-BN05JP2E3Z');
           `}
         </Script>
-        <script
+        <Script
+          id="json-ld"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
