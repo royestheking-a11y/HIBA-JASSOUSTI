@@ -601,7 +601,7 @@ export const fr = {
       { id: 3, src: '/images/project_hospitality_1780327670356.png', alt: 'Projet de conception architecturale par Hiba Jassousti', cat: 'Rendus', height: 'normal' },
       { id: 4, src: '/images/project_menzel_before_1780327703098.png', alt: 'Recherche architecturale et étude de restauration du patrimoine', cat: 'Visites de Site', height: 'short' },
       { id: 5, src: '/images/project_restoration_1780327598333.png', alt: 'Recherche architecturale et étude de restauration du patrimoine', cat: 'Construction', height: 'tall' },
-      { id: 6, src: '/images/hero section.png', alt: 'Villa architecturale moderne conçue par l\\'architecte Hiba Jassousti', cat: 'Rendus', height: 'normal' },
+      { id: 6, src: '/images/hero section.png', alt: "Villa architecturale moderne conçue par l'architecte Hiba Jassousti", cat: 'Rendus', height: 'normal' },
     ]
   },
   contact: {
@@ -625,7 +625,7 @@ export const fr = {
     sendBtn: 'Envoyer le Message',
     footerName: 'HIBA JASSOUSTI',
     designedBy: 'Conçu et Développé par',
-    footerDescription: 'Portfolio de Hiba Jassousti, Architecte et Designer de Tunisie, spécialisée dans l\\'architecture, la restauration du patrimoine, la visualisation et la recherche.',
+    footerDescription: "Portfolio de Hiba Jassousti, Architecte et Designer de Tunisie, spécialisée dans l'architecture, la restauration du patrimoine, la visualisation et la recherche.",
   }
 };
 
