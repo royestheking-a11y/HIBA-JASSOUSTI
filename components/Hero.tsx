@@ -99,7 +99,7 @@ export default function Hero() {
         >
           <Image
             src="/images/hero section.png"
-            alt="Djerba-inspired limestone architecture with water reflection"
+            alt="Modern architectural villa designed by architect Hiba Jassousti"
             fill
             priority
             style={{ objectFit: 'cover', objectPosition: 'center right' }}

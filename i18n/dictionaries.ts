@@ -45,7 +45,7 @@ export const en = {
     ]
   },
   hero: {
-    subtitle: 'ARCHITECT & DESIGNER',
+    subtitle: 'Architect • Designer • Researcher',
     description: 'Crafting spaces that resonate with history while embracing modern elegance. Specialized in high-end residential and cultural architecture.',
     viewProjects: 'View Projects',
     contactMe: 'Contact Me',
@@ -54,8 +54,8 @@ export const en = {
     sectionNum: '01 · ABOUT',
     titleLine1: 'Designing with',
     titleLine2: 'Purpose',
-    description1: 'I am a Tunisian architect deeply inspired by the rich cultural tapestry of North Africa. My work explores the delicate balance between preserving ancestral heritage and creating spaces that respond to modern needs.',
-    description2: 'With experience spanning from traditional Djerbian restoration to contemporary urban interventions, I approach each project as a unique narrative waiting to be told through materials, light, and form.',
+    description1: 'Hiba Jassousti is an architect and architectural researcher from Tunisia. Her work combines heritage preservation, contemporary architectural design, sustainable development and innovative visualization techniques.',
+    description2: 'Through architecture, research and design exploration, she aims to create meaningful spaces that connect people, culture and place.',
     stat1Value: '5+',
     stat1Label: 'Years Experience',
     stat2Value: '20+',
@@ -281,12 +281,12 @@ export const en = {
     viewMore: 'View More on Instagram',
     categories: ['All', 'Sketches', 'Models', 'Renders', 'Construction', 'Site Visits'],
     items: [
-      { id: 1, src: '/images/project_residential_1780327581514.png', alt: 'Coastal residence render', cat: 'Renders', height: 'tall' },
-      { id: 2, src: '/images/exploreproject.png', alt: 'Menzel Djerba 3D model', cat: 'Models', height: 'normal' },
-      { id: 3, src: '/images/project_hospitality_1780327670356.png', alt: 'Boutique hotel courtyard', cat: 'Renders', height: 'normal' },
-      { id: 4, src: '/images/project_menzel_before_1780327703098.png', alt: 'Menzel before restoration', cat: 'Site Visits', height: 'short' },
-      { id: 5, src: '/images/project_restoration_1780327598333.png', alt: 'Heritage restoration', cat: 'Construction', height: 'tall' },
-      { id: 6, src: '/images/hero section.png', alt: 'Villa architecture in Djerba', cat: 'Renders', height: 'normal' },
+      { id: 1, src: '/images/project_residential_1780327581514.png', alt: 'Architectural design project by Hiba Jassousti', cat: 'Renders', height: 'tall' },
+      { id: 2, src: '/images/exploreproject.png', alt: 'Architectural research and heritage restoration study', cat: 'Models', height: 'normal' },
+      { id: 3, src: '/images/project_hospitality_1780327670356.png', alt: 'Architectural design project by Hiba Jassousti', cat: 'Renders', height: 'normal' },
+      { id: 4, src: '/images/project_menzel_before_1780327703098.png', alt: 'Architectural research and heritage restoration study', cat: 'Site Visits', height: 'short' },
+      { id: 5, src: '/images/project_restoration_1780327598333.png', alt: 'Architectural research and heritage restoration study', cat: 'Construction', height: 'tall' },
+      { id: 6, src: '/images/hero section.png', alt: 'Modern architectural villa designed by architect Hiba Jassousti', cat: 'Renders', height: 'normal' },
     ]
   },
   contact: {
@@ -309,6 +309,7 @@ export const en = {
     placeholderMessage: 'Tell me about your project...',
     sendBtn: 'Send Message',
     footerName: 'HIBA JASSOUSTI',
+    footerDescription: 'Portfolio of Hiba Jassousti, Architect and Designer from Tunisia specializing in architecture, heritage restoration, visualization and research.',
     rights: 'All rights reserved',
     designedBy: 'Designed and Developed by'
   }
@@ -359,7 +360,7 @@ export const fr = {
     ]
   },
   hero: {
-    subtitle: 'ARCHITECTE & DESIGNER',
+    subtitle: 'Architecte • Designer • Chercheur',
     description: "Créer des espaces qui résonnent avec l'histoire tout en adoptant l'élégance moderne. Spécialisée dans l'architecture résidentielle et culturelle haut de gamme.",
     viewProjects: 'Voir les Projets',
     contactMe: 'Me Contacter',
@@ -368,8 +369,8 @@ export const fr = {
     sectionNum: '01 · À PROPOS',
     titleLine1: 'Concevoir avec',
     titleLine2: 'Intention',
-    description1: "Je suis une architecte tunisienne profondément inspirée par la riche tapisserie culturelle de l'Afrique du Nord. Mon travail explore l'équilibre délicat entre la préservation de l'héritage ancestral et la création d'espaces qui répondent aux besoins modernes.",
-    description2: 'Avec une expérience allant de la restauration traditionnelle djerbienne aux interventions urbaines contemporaines, j\'aborde chaque projet comme un récit unique qui attend d\'être raconté à travers les matériaux, la lumière et la forme.',
+    description1: "Hiba Jassousti est une architecte et chercheuse en architecture basée en Tunisie. Son travail allie préservation du patrimoine, conception architecturale contemporaine, développement durable et techniques de visualisation innovantes.",
+    description2: "À travers l'architecture, la recherche et l'exploration du design, elle vise à créer des espaces significatifs qui relient les personnes, la culture et le lieu.",
     stat1Value: '5+',
     stat1Label: "Années d'expérience",
     stat2Value: '20+',
@@ -595,12 +596,12 @@ export const fr = {
     viewMore: 'Voir Plus sur Instagram',
     categories: ['Tous', 'Croquis', 'Maquettes', 'Rendus', 'Construction', 'Visites de Site'],
     items: [
-      { id: 1, src: '/images/project_residential_1780327581514.png', alt: 'Rendu de résidence côtière', cat: 'Rendus', height: 'tall' },
-      { id: 2, src: '/images/exploreproject.png', alt: 'Modèle 3D Menzel Djerba', cat: 'Maquettes', height: 'normal' },
-      { id: 3, src: '/images/project_hospitality_1780327670356.png', alt: 'Cour d\'hôtel boutique', cat: 'Rendus', height: 'normal' },
-      { id: 4, src: '/images/project_menzel_before_1780327703098.png', alt: 'Menzel avant restauration', cat: 'Visites de Site', height: 'short' },
-      { id: 5, src: '/images/project_restoration_1780327598333.png', alt: 'Restauration du patrimoine', cat: 'Construction', height: 'tall' },
-      { id: 6, src: '/images/hero section.png', alt: 'Architecture de villa Djerba', cat: 'Rendus', height: 'normal' },
+      { id: 1, src: '/images/project_residential_1780327581514.png', alt: 'Projet de conception architecturale par Hiba Jassousti', cat: 'Rendus', height: 'tall' },
+      { id: 2, src: '/images/exploreproject.png', alt: 'Recherche architecturale et étude de restauration du patrimoine', cat: 'Maquettes', height: 'normal' },
+      { id: 3, src: '/images/project_hospitality_1780327670356.png', alt: 'Projet de conception architecturale par Hiba Jassousti', cat: 'Rendus', height: 'normal' },
+      { id: 4, src: '/images/project_menzel_before_1780327703098.png', alt: 'Recherche architecturale et étude de restauration du patrimoine', cat: 'Visites de Site', height: 'short' },
+      { id: 5, src: '/images/project_restoration_1780327598333.png', alt: 'Recherche architecturale et étude de restauration du patrimoine', cat: 'Construction', height: 'tall' },
+      { id: 6, src: '/images/hero section.png', alt: 'Villa architecturale moderne conçue par l\\'architecte Hiba Jassousti', cat: 'Rendus', height: 'normal' },
     ]
   },
   contact: {
@@ -623,8 +624,8 @@ export const fr = {
     placeholderMessage: 'Parlez-moi de votre projet...',
     sendBtn: 'Envoyer le Message',
     footerName: 'HIBA JASSOUSTI',
-    rights: 'Tous droits réservés',
-    designedBy: 'Conçu et Développé par'
+    designedBy: 'Conçu et Développé par',
+    footerDescription: 'Portfolio de Hiba Jassousti, Architecte et Designer de Tunisie, spécialisée dans l\\'architecture, la restauration du patrimoine, la visualisation et la recherche.',
   }
 };
 

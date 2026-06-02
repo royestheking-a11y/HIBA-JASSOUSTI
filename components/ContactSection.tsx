@@ -346,6 +346,19 @@ export default function ContactSection() {
           >
             {t('contact.footerName')}
           </span>
+          {t('contact.footerDescription') && (
+            <p
+              className="mt-2 md:mt-0 md:max-w-[400px]"
+              style={{
+                fontFamily: 'Inter, sans-serif',
+                fontSize: '0.75rem',
+                color: 'rgba(255,255,255,0.4)',
+                lineHeight: 1.5,
+              }}
+            >
+              {t('contact.footerDescription')}
+            </p>
+          )}
           <p
             style={{
               fontFamily: 'Inter, sans-serif',
