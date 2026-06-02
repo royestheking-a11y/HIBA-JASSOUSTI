@@ -320,8 +320,8 @@ export default function ContactSection() {
 
         {/* Footer */}
         <div
+          className="flex flex-col md:flex-row items-center justify-between text-center md:text-left gap-4 md:gap-0"
           style={{ 
-            display: 'flex', alignItems: 'center', justifyContent: 'space-between', 
             marginTop: '80px', paddingTop: '32px', borderTop: '1px solid rgba(183,203,219,0.12)' 
           }}
         >
