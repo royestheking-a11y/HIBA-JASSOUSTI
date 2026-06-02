@@ -14,12 +14,45 @@ export default function ContactSection() {
   const { t } = useLanguage();
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [sent, setSent] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSent(true);
-    setTimeout(() => setSent(false), 3000);
-    setFormData({ name: '', email: '', message: '' });
+    setLoading(true);
+    setError(false);
+
+    try {
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json'
+        },
+        body: JSON.stringify({
+          access_key: process.env.NEXT_PUBLIC_WEB3FORMS_KEY || 'YOUR_ACCESS_KEY_HERE',
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+          subject: `New Message from ${formData.name} via Portfolio`,
+        })
+      });
+      
+      const result = await response.json();
+      
+      if (result.success) {
+        setSent(true);
+        setTimeout(() => setSent(false), 5000);
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        setError(true);
+      }
+    } catch (err) {
+      console.error(err);
+      setError(true);
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -304,13 +337,23 @@ export default function ContactSection() {
                     />
                   </div>
 
+                  {error && (
+                    <div style={{ color: '#ff6b6b', fontSize: '0.85rem', marginBottom: '8px', fontFamily: 'Inter, sans-serif' }}>
+                      Oops! Something went wrong. Please try again later or email directly.
+                    </div>
+                  )}
+
                   <button
                     id="contact-submit-btn"
                     type="submit"
+                    disabled={loading}
                     className="btn-honey transition-all duration-300"
-                    style={{ width: '100%', marginTop: '8px', display: 'flex', justifyContent: 'center', gap: '8px', padding: '14px 32px' }}
+                    style={{ 
+                      width: '100%', marginTop: '8px', display: 'flex', justifyContent: 'center', gap: '8px', padding: '14px 32px',
+                      opacity: loading ? 0.7 : 1, cursor: loading ? 'not-allowed' : 'pointer'
+                    }}
                   >
-                    {t('contact.sendBtn')} <Send size={16} />
+                    {loading ? 'Sending...' : t('contact.sendBtn')} {!loading && <Send size={16} />}
                   </button>
                 </form>
               )}
