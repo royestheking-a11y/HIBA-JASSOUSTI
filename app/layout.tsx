@@ -10,6 +10,15 @@ export const metadata: Metadata = {
     description: "Designing spaces that connect heritage, culture and contemporary life.",
     type: "website",
   },
+  icons: {
+    icon: [
+      { url: '/favicon/favicon.ico' },
+      { url: '/favicon/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
+      { url: '/favicon/favicon.svg', type: 'image/svg+xml' },
+    ],
+    apple: '/favicon/apple-touch-icon.png',
+  },
+  manifest: '/favicon/site.webmanifest',
 };
 
 import { LanguageProvider } from "@/context/LanguageContext";
