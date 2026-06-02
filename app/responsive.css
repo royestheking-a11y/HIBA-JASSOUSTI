@@ -1,0 +1,99 @@
+/* Responsive CSS Overrides */
+/* This file provides safe utility classes that override inline styles on mobile devices */
+
+@media (max-width: 1024px) {
+  /* Layout Modifiers */
+  .mobile-stack {
+    flex-direction: column !important;
+  }
+  
+  .mobile-stack-reverse {
+    flex-direction: column-reverse !important;
+  }
+
+  .mobile-grid-1 {
+    grid-template-columns: 1fr !important;
+  }
+
+  .mobile-grid-2 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  /* Spacing Modifiers */
+  .mobile-section-padding {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+  }
+  
+  .mobile-container-padding {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+
+  .mobile-gap-4 {
+    gap: 16px !important;
+  }
+
+  .mobile-gap-6 {
+    gap: 24px !important;
+  }
+
+  .mobile-gap-8 {
+    gap: 32px !important;
+  }
+
+  .mobile-mt-4 {
+    margin-top: 16px !important;
+  }
+  
+  .mobile-mt-8 {
+    margin-top: 32px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Smaller Spacing Modifiers */
+  .mobile-section-padding {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+  }
+
+  .mobile-container-padding {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+  
+  /* Text Modifiers */
+  .mobile-h1 {
+    font-size: 3rem !important;
+    line-height: 1.1 !important;
+  }
+  
+  .mobile-h2 {
+    font-size: 2.25rem !important;
+    line-height: 1.1 !important;
+  }
+  
+  .mobile-h3 {
+    font-size: 1.75rem !important;
+  }
+  
+  .mobile-text-sm {
+    font-size: 0.875rem !important;
+  }
+
+  /* specific overrides */
+  .mobile-full-width {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  
+  .mobile-hide {
+    display: none !important;
+  }
+  
+  .mobile-scale-orbit {
+    transform: scale(0.55) !important;
+    transform-origin: center center;
+  }
+}
